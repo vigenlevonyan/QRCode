@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="itext7" Version="9.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.8.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="QRCoder" Version="1.6.0" />
+    <PackageReference Include="RestSharp" Version="112.1.0" />
+    <PackageReference Include="System.Drawing.Common" Version="9.0.4" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.8.0" />
+    <PackageReference Include="Telerik.DataSource" Version="2.1.2" />
+    <PackageReference Include="ZXing.Net" Version="0.16.10" />
+    <PackageReference Include="Stripe.net" Version="48.0.2" />
+    <PackageReference Include="Nc.Images.Abstractions" Version="1.0.2" />
+    <PackageReference Include="Nc.Images" Version="1.0.2" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QShirt.Domain\QShirt.Domain.csproj" />
+    <ProjectReference Include="..\QShirt.Persistence\QShirt.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

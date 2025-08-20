@@ -1,3 +1,7 @@
 /.next
 /node_modules/.bin
 /node_modules
+*/bin
+*/obj
+/QShirt.Domain/obj
+/QShirt.Infrastructure/bin
